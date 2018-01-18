@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Duke_University_logo.svg",
+    "link": "",
+    "text": "Varda F. Hagh- Aghil Abed Zadeh"
+  },
+  "text": {
+    "more": "",
+    "intro": "This graph shows the interdisciplinary collaborations among different departments and organizations at Duke University.",
+    "title": "Graph of Interdisciplinarity"
+  },
+  "legend": {
+    "edgeLabel": "Number of Shared Publications",
+    "colorLabel": "Number of Collaborations",
+    "nodeLabel": "Departments and Organizations"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
